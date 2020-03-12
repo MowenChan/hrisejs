@@ -1,0 +1,30 @@
+[
+  {
+    //0
+    "clazz":"StateLib.Lib1.TimeOutState",
+    "props":{
+      "timeout":10000,
+      "exit":{
+        "OVER_TIME":1
+      }
+    }
+  },
+  {
+    //1
+    "clazz":"StateLib.Lib1.TimeOutState",
+    "props":{
+      "exit":{
+        "DEC_AGAIN":0,
+        "DEC_END":2
+      }
+    }
+  },
+  {
+    //2
+    "clazz":"StateLib.FlowBreaker",
+    "props":{
+      "alphabet":"DEC_END"
+    }
+  },
+
+]

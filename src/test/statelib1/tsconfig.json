@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+
+    "target": "es3",
+    "module": "amd",
+    "outDir": "./dist/",
+    //"outFile": "./dist/StateLib.js",
+    //"rootDirs": "./",
+    "declaration":true,
+    "strict": true,
+    "noResolve":false,
+    "noImplicitThis":false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments":true
+  },
+  "include":[
+    "./*.ts",
+  ],
+}

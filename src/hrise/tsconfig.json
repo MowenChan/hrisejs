@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+
+    "target": "es3",
+    "module": "amd",
+    //"outDir": "../../",
+    "outFile": "../../dist/hrise.js",
+    "declaration":true,
+    //"rootDirs": "./",
+    "strict": true,
+    "noImplicitThis":false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments":true
+  },
+  "include":[
+    "./*.ts",
+    "./state/*.ts"
+  ],
+  "exlude":[
+    "./H$.ts",
+  ]
+}

@@ -1,0 +1,22 @@
+<html>
+  
+  <head>
+    <script type="text/javascript" src="./dist/hrise.js"></script>
+    <script type="text/javascript" src="./dist/StateLib.js"></script>
+    <script type="text/javascript" src="./dist/library.js"></script>
+    <script type="text/javascript" src="./dist/testflow.js"></script>
+  </head>
+  <body>
+    <div id="boxx"></div>
+    <script type="text/javascript">
+      var flow=new hrise.H$.StateLib.FlowBase();
+      flow.H$setter("flow","testflow1");
+      //flow.action();
+      function demo(){
+        flow.H$setter("flow","testflow1");
+        flow.action();
+      };
+    </script>
+  </body>
+
+</html>

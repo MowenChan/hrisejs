@@ -1,0 +1,17 @@
+{
+  "name": "hrise-js",
+  "version": "0.1.8",
+  "description": "branch Hrisejs 0.1.8",
+  "main": "index.js",
+  "scripts": {
+    "build-hrise":"tsc -b ./src/hrise/tsconfig.json",
+    "build-dts":"tsc -b ./src/hrise/dtsconfig.json && RD /Q /S .\\src\\temp"
+  },
+  "referernces": {},
+  "devDependencies": {
+    "uglify-js": "3",
+    "requirejs": "~2.3.6"
+  },
+  "author": "chenwenchao@yihuacomputer.com",
+  "license": "ISC"
+}
